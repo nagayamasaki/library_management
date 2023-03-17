@@ -42,7 +42,7 @@
         </div>
     </form>  
     <button type="submit">ログイン</button>
-    <a href="sigin_up.jsp">新規登録画面へ</a><br>
+    <a href="user_sign_upServlet">新規登録画面へ</a><br>
     <%
 		}
 	%>	

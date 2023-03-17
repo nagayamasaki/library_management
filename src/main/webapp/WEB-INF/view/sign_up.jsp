@@ -50,7 +50,7 @@
         </div>
     </form>  
     <button type="submit">次へ</button>
-    <a href="login_form.jsp">ログイン画面へ</a><br>
+    <a href="user_loginServlet">ログイン画面へ</a><br>
     <%
 		}
 	%>	
