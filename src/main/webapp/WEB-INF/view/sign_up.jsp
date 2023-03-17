@@ -29,7 +29,7 @@
             <input type="password" id="pw" name="your-pw">     
         </div>
     </form>  
-    <button type="submit">次へ</button>
+    <a href="sign_up_confirmServlet">次へ</a><br>
     <a href="login_form.jsp">ログイン画面へ</a><br>
 	<%
 		} else {
@@ -49,8 +49,8 @@
             <input type="password" id="pw" name="your-pw">     
         </div>
     </form>  
-    <button type="submit">次へ</button>
-    <a href="user_loginServlet">ログイン画面へ</a><br>
+    <a href="sign_up_confirmServlet">次へ</a><br>
+    <a href="user_loginServlet">ログイン画面へ</a>
     <%
 		}
 	%>	
