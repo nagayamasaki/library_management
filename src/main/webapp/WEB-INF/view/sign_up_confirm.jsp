@@ -16,8 +16,8 @@
 	メール：<%=account.getMail() %><br>
 	パスワード：********<br>
 	
-	<a href="#">登録</a><br>
-	<a href="#">戻る</a>
+	<a href="#" class = "">登録</a><br>
+	<a href="#" class = "">戻る</a>
 
 </body>
 </html>
