@@ -18,7 +18,7 @@
   <option value="top">top</option>
   <option value="図書追加">図書追加</option>
   <option value="図書一覧">図書一覧</option>
-  <option value="貸返ログ">貸返ログ</option>
+  <option value="貸返ログ">貸返log</option>
 </select>
 <br style="clear:both"> 
 </form>
