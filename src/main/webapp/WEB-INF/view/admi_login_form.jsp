@@ -12,11 +12,21 @@
 <div style="text-align: center;"> 
 <h1>管理</h1>
 </div>
-<div style="text-align: right;"> 
+
+<div style="text-align: left;"> 
 <div class="flex_test-item">
         <a href="#">ログアウト</a>
 </div>
-    </div>
+  
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+  </div>  
+    
 <div class="flex_test-box">
     
     </div>
