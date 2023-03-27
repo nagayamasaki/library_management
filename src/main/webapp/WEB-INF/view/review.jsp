@@ -20,6 +20,10 @@
         <p id="inputlength">0/1000</p>
     </form>
 
+	<a href="Review_confirmServlet">次へ</a>
+
+
+
 
     <script>    function ShowLength( str ) {
         document.getElementById("inputlength").innerHTML = str.length + "/1000";

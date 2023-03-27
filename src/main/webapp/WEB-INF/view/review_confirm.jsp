@@ -14,5 +14,7 @@
 	%>
 	
 	<%=book.getIsbn() %><br>
+	
+	<a href="#">投稿</a>
 </body>
 </html>
