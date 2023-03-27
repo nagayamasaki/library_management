@@ -12,6 +12,8 @@ background-repeat: no-repeat;
 text-align: center;
 }
 
+
+
 .input {
 margin-top: 20px;
 }
@@ -19,7 +21,6 @@ margin-top: 20px;
 .big{
 	font-size:20pt;
 }
-
 .button{
 	font-size:20pt;
 	display: block;
