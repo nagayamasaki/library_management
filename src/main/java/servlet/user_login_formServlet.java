@@ -38,10 +38,8 @@ public class user_login_formServlet extends HttpServlet {
 		String mail = request.getParameter("mail");
 		String pw = request.getParameter("pw");
 		
-		// 入力されたIDをもとにソルトを取得する。
 		String salt = AccountDAO.getSalt(mail);
 		
-		// 取得したソルトがnullの場合は対象のユーザがいないので、Errorでログイン画面に戻す
 		if(salt == null) {
 			String view = "./?error=1";
 			RequestDispatcher dispatcher = request.getRequestDispatcher(view);
@@ -49,19 +47,16 @@ public class user_login_formServlet extends HttpServlet {
 			return;
 		}
 		
-		// 取得したソルトを使って入力したPWをハッシュ
+
 		String hashedPw = GenerateHashedPw.getSafetyPassword(pw, salt);
 		
-		// 入力されたID、ハッシュしたPWに一致するユーザを検索する
 		Account account = AccountDAO.login(mail, hashedPw);
 		
-		// 一致するユーザがいなければ、ログイン失敗
 		if(account == null) {
 			String view = "./?error=1";
 			RequestDispatcher dispatcher = request.getRequestDispatcher(view);
 			dispatcher.forward(request, response);
 		} else {
-			// ログイン情報をセッションに登録
 			HttpSession session = request.getSession();
 			session.setAttribute("user", account);
 		
