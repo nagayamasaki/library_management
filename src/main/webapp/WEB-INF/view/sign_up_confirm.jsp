@@ -4,20 +4,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel = "stylesheet" href = "css/index.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-    	<p>下記の内容で登録します。よろしいですか？</p>
+    <div style= text-align:center>
+    	<h1>下記の内容で登録します。よろしいですか？</h1>
+    	</div>
 	<%
 		Account account = (Account)session.getAttribute("input_data");
 	%>
-	名前：<%=account.getName() %><br>
-	メール：<%=account.getMail() %><br>
-	パスワード：********<br>
+	<br>
 	
-	<a href="#" class = "">登録</a><br>
-	<a href="#" class = "">戻る</a>
-
+	<div style = margin-left:30px;font-size:25pt>
+	<div >名前：&emsp;&emsp;&emsp;&emsp;&emsp;<%=account.getName() %></div><br><br>
+	<div class = >メール：&emsp;&emsp;&emsp;&emsp;&emsp;<%=account.getMail() %> </div><br><br>
+	<div class = >パスワード：&emsp;&emsp;&emsp;&emsp;&emsp;********</div><br>
+	</div>
+	<div class ="top-box">
+	<a href="#" class = "button" >戻る</a>
+	<a href="#" class = "button">登録</a>
+	</div><br>
+	
 </body>
 </html>

@@ -8,10 +8,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <div class = "top-box">
 	<h1 class = title>管理</h1>	
 	<a href = "#" class = logout-button style = color:red>ログアウト</a>
 </div>	
+
 <div class="flex-box">
 	<div class = "top-box-inner">
 	<a href="#" class= "button-admin" style = margin-bottom:100px>図書返却</a>
