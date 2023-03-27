@@ -18,18 +18,20 @@
 
 <br>
 <br>
-<br>
-<br>
-<br>
+
+
+
+<div style="text-align: left;">
+
+<p><font size="8">図書名&emsp;&emsp;&emsp;アンパンマン</font></p>
+
 <br>
 
-<div style="text-align: center;">
+<p><font size="8">ISBN&emsp;&emsp;&emsp;&emsp;1234567890123</font></p>
 
-<p><font size="5">図書名　　　　　　　　　　　アンパンマン</font></p>
+<br>
 
-<p><font size="5">ISBN　　　　　　　　　　　1234567890123</font></p>
-
-<p><font size="5">ID　　　　　　　　　　　1</font></p>
+<p><font size="8">ID&emsp;&emsp;&emsp;&emsp;&emsp;1</font></p>
 
 </div>
 
@@ -37,15 +39,12 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
-<div class="example">
-    <input type="button" value="戻る"><input type="button" value="削除">
-</div>
 
+<div class ="top-box">
+	<a href="#" class = "button" >戻る</a>
+	<a href="#" class = "button">削除</a>
+	</div><br>
 
 </body>
 </html>
