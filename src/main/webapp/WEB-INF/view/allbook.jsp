@@ -3,8 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel = "stylesheet" href = "css/sample.css">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -56,24 +58,58 @@
 <br>
 <br>
 
-<table border="1" class="example2">
-    <tr>
-        <th>タイトル1</th>
-        <th>タイトル2</th>
-        <th>タイトル3</th>
-    </tr>
-    <tr>
-        <td>マス1</td>
-        <td>マス2</td>
-        <td>マス3</td>
-    </tr>
-    <tr>
-        <td>マス4</td>
-        <td>マス5</td>
-        <td>マス6</td>
-    </tr>
-</table>
-
+<table class="table table-striped table-boredered table-hover">
+             <tr>
+              <th class="example1">出版日</th>
+              <th class="example1">ジャンル</th>
+              <th class="example1">図書名</th>
+              <th class="example1">ISBN</th>
+              <th class="example1">ID</th>
+              <th class="example1"></th>
+             </tr>
+             <tr>
+              <td>データ</td>
+              <td>データ</td>
+              <td>データ</td>
+              <td>データ</td>
+              <td>データ</td>
+              <td><button type="submit" class="button1" value="b1">
+		<font>削除</font>
+    </button></td>
+             </tr>
+             <tr>
+               <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td><button type="submit" class="button1" value="b1">
+		<font>削除</font>
+    </button></td>
+               </tr>
+               <tr>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td><button type="submit" class="button1" value="b1">
+		<font>削除</font>
+    </button></td>
+               </tr>
+               <tr>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td>データ</td>
+                <td><button type="submit" class="button1" value="b1">
+		<font>削除</font>
+    </button></td>
+               </tr>
+            </table>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
 </body>

@@ -23,7 +23,7 @@
     <td class="main-text">アンパンマン
     
     <td style="float: right">
-<button>選択</button>
+<button onclick="location.href='ReturnComfirmServlet'">選択</button>
     </td>
     
    

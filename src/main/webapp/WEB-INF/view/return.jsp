@@ -8,19 +8,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div style="text-align: center;">
-返却するメールアドレスを入力してください
-<form style="float: right">
-<select name="menu">
+<div style="text-align: center" class="top-box">
+<h1 style=margin-left:100px>返却するメールアドレスを入力してください</h1>
+<select name="menu" style=margin-left:50px>
   <option value="top">menu</option>
   <option value="top">top</option>
   <option value="図書追加">図書追加</option>
   <option value="図書一覧">図書一覧</option>
   <option value="貸返ログ">貸返ログ</option>
 </select>
-<br style="clear:both"> 
-</form>
 </div>
+
 
 <br>
 <br>
@@ -28,12 +26,11 @@
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 <div style="text-align: center;">
 <form action="#" method="post">
-mail<input type="text" name="name" size="45">
+<font size=120px>mail<input type="text" name="name"  style="width: 800px; height: 60px;"></font>
 </form>
 
 
@@ -44,9 +41,11 @@ mail<input type="text" name="name" size="45">
 <br>
 <br>
 
-<div class="example">
-    <input type="button" value="戻る"><input type="button" value="OK">
-</div>
+<div class ="top-box">
+	<a href="ReturnSelectionServlet" class = "button" >次へ</a>
+	</div><br>
+
+
 
 </div>
 

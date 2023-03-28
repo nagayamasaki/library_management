@@ -28,10 +28,10 @@
 <br>
 <br>
 
-<div class="example">
-    <input type="button" value="戻る"><input type="button" value="追加">
-</div>
-
+<div class ="top-box">
+	<a href="#" class = "button" >戻る</a>
+	<a href="#" class = "button">追加</a>
+	</div><br>
 
 
 

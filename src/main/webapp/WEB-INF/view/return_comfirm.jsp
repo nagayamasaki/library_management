@@ -13,31 +13,28 @@
 
 <div style="text-align: center;">
 
-<p><font size="5">以下の本の返却処理をします</font></p>
+<h1>以下の本の返却処理をします</h1>
 
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
-<p><font size="5">アンパンマン</font></p>
+
+<p><font size="10">アンパンマン</font></p>
 
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
-<div class="example">
-    <input type="button" value="戻る"><input type="button" value="OK">
-</div>
+
+<div class ="top-box">
+	<a href="#" class = "button" >戻る</a>
+	<a href="#" class = "button">OK</a>
+	</div><br>
+
+
 
 </div>
 </body>

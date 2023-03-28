@@ -14,7 +14,7 @@
 <br>
 <br>
 
-<p><font size="5">返却処理をしました。</font></p>
+<h1>返却処理をしました。</h1>
 
 <br>
 <br>
@@ -24,7 +24,7 @@
 <br>
 
 
-<button>もう一冊返却処理をする</button>
+<button>もう一冊追加する</button>
 
 <br>
 <br>
