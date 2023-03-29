@@ -11,21 +11,21 @@
 
 <div class = "top-box">
 	<h1 class = title>管理</h1>	
-	<a href = "#" class = logout-button style = color:red>ログアウト</a>
+	<a href = "LogoutServlet" class = logout-button style = color:red>ログアウト</a>
 </div>	
 
 <div class="flex-box">
 	<div class = "top-box-inner">
-	<a href="#" class= "button-admin" style = margin-bottom:100px>図書返却</a>
+	<a href="Return2Servlet" class= "button-admin" style = margin-bottom:100px>図書返却</a>
 	</div>
 	<div class = "top-box-inner">
-	<a href="#" class= "button-admin" style = margin-bottom:100px>図書追加</a>
+	<a href="InsertServlet" class= "button-admin" style = margin-bottom:100px>図書追加</a>
 	</div>
 	<div class = "top-box-inner">
-	<a href="#" class= "button-admin">図書一覧</a><br>
+	<a href="AllbookServlet" class= "button-admin">図書一覧</a><br>
 	</div>
 	<div class = "top-box-inner">
-	<a href="#" class= "button-admin">貸し出し返却ログ</a>
+	<a href="LogServlet" class= "button-admin">貸し出し返却ログ</a>
 </div>
 </div>
 </body>

@@ -16,7 +16,7 @@
  			ログインに失敗しました
 		</div>	
 <div class = "second-life">
-    <form action="#">
+    <form action="user_login_formServlet">
      	<h1>ログイン</h1>
     	<h2 style = color:>メールアドレスとPWを入力してください。</h2><br>
 	
@@ -36,7 +36,7 @@
 		} else {
 	%>
 	<div class = "second-life">
-    <form action="#">
+    <form action="user_login_formServlet">
     	<h1 style = "color:red">ログイン</h1>
     	<h2>メールアドレスとPWを入力してください。</h2><br>
 		
