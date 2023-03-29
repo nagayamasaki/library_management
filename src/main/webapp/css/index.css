@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /** ログイン画面のCSS **/
 .second-life {
 height: 400px;
@@ -65,6 +66,7 @@ margin-top: 20px;
 
 /** ここまで**/
 
+
 /** 管理者画面のCSS **/
 
 .top-box{
@@ -85,8 +87,6 @@ justify-content: center;
 	text-align: center;
 	flex:1;
 }
-
-
 .logout-button{
 	margin-left:  -200px;
 	font-size:20pt;
@@ -146,6 +146,8 @@ justify-content: center;
 }
 
 /** ここまで **/
+
+/* lending.jsp */
 
 /* ここから下がハンバーガーメニューに関するCSS */
     
@@ -230,6 +232,4 @@ justify-content: center;
   #drawer_input:checked ~ .nav_content {
     right: 0;/* メニューを画面に入れる */
   }
-
-
 

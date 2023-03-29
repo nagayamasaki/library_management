@@ -3,47 +3,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel = "stylesheet" href = "css/index.css">
 <meta charset="UTF-8">
-<link rel = "stylesheet" href = "css/sample.css">
 <title>Insert title here</title>
 </head>
 <body>
 
-<div style="text-align: center;"> 
-<h1>管理</h1>
-</div>
+<div class = "top-box">
+	<h1 class = title>管理</h1>	
+	<a href = "#" class = logout-button style = color:red>ログアウト</a>
+</div>	
 
-<div style="text-align: left;"> 
-<div class="flex_test-item">
-        <a href="#">ログアウト</a>
+<div class="flex-box">
+	<div class = "top-box-inner">
+	<a href="Return2Servlet" class= "button-admin" style = margin-bottom:100px>図書返却</a>
+	</div>
+	<div class = "top-box-inner">
+	<a href="InsertServlet" class= "button-admin" style = margin-bottom:100px>図書追加</a>
+	</div>
+	<div class = "top-box-inner">
+	<a href="AllbookServlet" class= "button-admin">図書一覧</a><br>
+	</div>
+	<div class = "top-box-inner">
+	<a href="LogServlet" class= "button-admin">貸し出し返却ログ</a>
 </div>
-  
-     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    
-  </div>  
-    
-<div class="flex_test-box">
-    
-    </div>
-	<div class="flex_test-box">
-    <div class="flex_test-item">
-        図書返却
-    </div>
-    <div class="flex_test-item">
-        図書追加
-    </div>
-    <div class="flex_test-item">
-        図書一覧
-    </div>
-    <div class="flex_test-item">
-        貸し出し返却ログ
-    </div>
-    </div>
-
+</div>
 </body>
 </html>
