@@ -11,28 +11,35 @@
 
 <div style="text-align: center;">
 
+<script>
+        function alert() {
+            alert("要素がクリックされました");
+        }
+    </script>
+
+
 <br>
 <br>
 
-<p><font size="5">削除しました。</font></p>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-<button>図書一覧に戻る</button>
+<h1>削除しました。</h1>
 
 <br>
 <br>
 <br>
 <br>
+<br>
+<br>
 
 
-<button>topに戻る</button>
+	<a href="AllbookServlet" onclick="alert()"><button>図書一覧に戻る</button></a>
+
+<br>
+<br>
+<br>
+<br>
+
+
+	<a href="AdminLoginFormServlet" onclick="alert()"><button>topに戻る</button></a>
 
 
 

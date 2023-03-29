@@ -92,7 +92,6 @@ public class AccountDAO {
 			try (ResultSet rs = pstmt.executeQuery()){
 				
 				if(rs.next()) {
-					int id = rs.getInt("id");
 					String name = rs.getString("name");
 					String salt = rs.getString("salt");
 					

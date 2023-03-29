@@ -9,6 +9,12 @@
 </head>
 <body>
 
+<script>
+        function alert() {
+            alert("要素がクリックされました");
+        }
+    </script>
+
 <div style="text-align: center;"> 
 
 <h1>返却処理を行う本を選んでください</h1>
@@ -23,139 +29,61 @@
     <td class="main-text">アンパンマン
     
     <td style="float: right">
-<button>選択</button>
+	<a href="ReturnComfirmServlet" onclick="alert()"><button>選択</button></a>
     </td>
     
    
   </tr>
-   <tr>
+
+	<tr>
     <td class="main-text">しょくぱんまん
     
     <td style="float: right">
-<button>選択</button>
+	<a href="ReturnComfirmServlet" onclick="alert()"><button>選択</button></a>
     </td>
     
    
   </tr>
-  
-   <tr>
+  <tr>
     <td class="main-text">メロンパンナ
     
     <td style="float: right">
-<button>選択</button>
+	<a href="ReturnComfirmServlet" onclick="alert()"><button>選択</button></a>
     </td>
     
    
   </tr>
   
-   <tr>
-    <td class="main-text">KajindowsXP
+  	<tr>
+    <td class="main-text">ばいきんまん
     
     <td style="float: right">
-<button>選択</button>
+	<a href="ReturnComfirmServlet" onclick="alert()"><button>選択</button></a>
     </td>
     
    
   </tr>
-  
-   <tr>
-    <td class="main-text">KajindowsXP
+  <tr>
+    <td class="main-text">バタコさん
     
     <td style="float: right">
-<button>選択</button>
+	<a href="ReturnComfirmServlet" onclick="alert()"><button>選択</button></a>
     </td>
     
    
   </tr>
-  
-   <tr>
-    <td class="main-text">KajindowsXP
+  <tr>
+    <td class="main-text">チーズ
     
     <td style="float: right">
-<button>選択</button>
+	<a href="ReturnComfirmServlet" onclick="alert()"><button>選択</button></a>
     </td>
     
    
   </tr>
   
-   <tr>
-    <td class="main-text">KajindowsXP
-    
-    <td style="float: right">
-<button>選択</button>
-    </td>
-    
-   
-  </tr>
-  
-   <tr>
-    <td class="main-text">KajindowsXP
-    
-    <td style="float: right">
-<button>選択</button>
-    </td>
-    
-   
-  </tr>
-     <tr>
-    <td class="main-text">KajindowsXP
-    
-    <td style="float: right">
-<button>選択</button>
-    </td>
-    
-   
-  </tr>
-  
-     <tr>
-    <td class="main-text">KajindowsXP
-    
-    <td style="float: right">
-<button>選択</button>
-    </td>
-    
-   
-  </tr>
-  
-     <tr>
-    <td class="main-text">KajindowsXP
-    
-    <td style="float: right">
-<button>選択</button>
-    </td>
-    
-   
-  </tr>
-  
-     <tr>
-    <td class="main-text">KajindowsXP
-    
-    <td style="float: right">
-<button>選択</button>
-    </td>
-    
-   
-  </tr>
-  
-     <tr>
-    <td class="main-text">KajindowsXP
-    
-    <td style="float: right">
-<button>選択</button>
-    </td>
-    
-   
-  </tr>
+  </table>
   
   
-</table>
-
-
-
-
-
-
-
-
 </body>
 </html>

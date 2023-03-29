@@ -18,20 +18,20 @@
 <p><font size="5">図書名</font></p>
 <br>
 <br>
-<p><font size="5">図書名</font></p>
+<p><font size="5">ジャンル</font></p>
 <br>
 <br>
-<p><font size="5">図書名</font></p>
+<p><font size="5">ISBN</font></p>
 <br>
 <br>
-<p><font size="5">図書名</font></p>
+<p><font size="5">出版日</font></p>
 <br>
 <br>
 
-<div class="example">
-    <input type="button" value="戻る"><input type="button" value="追加">
-</div>
-
+<div class ="top-box">
+	<a href="InsertServlet" class = "button" >戻る</a>
+	<a href="InsertSuccessServlet" class = "button">追加</a>
+	</div><br>
 
 
 
