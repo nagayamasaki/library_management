@@ -11,6 +11,13 @@
 
 <div style="text-align: center;">
 
+<script>
+        function alert() {
+            alert("要素がクリックされました");
+        }
+    </script>
+
+
 <br>
 <br>
 
@@ -24,7 +31,7 @@
 <br>
 
 
-<button>図書一覧に戻る</button>
+	<a href="AllbookServlet" onclick="alert()"><button>図書一覧に戻る</button></a>
 
 <br>
 <br>
@@ -32,7 +39,7 @@
 <br>
 
 
-<button>topに戻る</button>
+	<a href="AdminLoginFormServlet" onclick="alert()"><button>topに戻る</button></a>
 
 
 

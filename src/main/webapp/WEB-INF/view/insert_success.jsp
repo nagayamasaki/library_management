@@ -9,12 +9,19 @@
 </head>
 <body>
 
+<script>
+        function alert() {
+            alert("要素がクリックされました");
+        }
+    </script>
+
+
 <div style="text-align: center;">
 
 <br>
 <br>
 
-<h1>返却処理をしました。</h1>
+<h1>追加しました</h1>
 
 <br>
 <br>
@@ -24,7 +31,7 @@
 <br>
 
 
-<button>もう一冊追加する</button>
+	<a href="InsertServlet" onclick="alert()"><button>もう一冊追加する</button></a>
 
 <br>
 <br>
@@ -32,7 +39,7 @@
 <br>
 
 
-<button>topに戻る</button>
+	<a href="AdminLoginFormServlet" onclick="alert()"><button>topに戻る</button></a>
 
 
 

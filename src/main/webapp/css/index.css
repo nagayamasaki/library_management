@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/** 管理者画面のCSS **/
+
+.top-box{
+	display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.top-box-inner{
+	 flex: 1;
+  margin: 0;
+}
+.title{
+	margin:0;
+	font-size:2.5em;
+	text-align: center;
+	flex:1;
+}
+
+.logout-button{
+	margin-left:  -200px;
+	font-size:20pt;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 200px;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	background: #27acd9;
+	color: rgb(255, 0, 0);
+	transition: 0.5s;
+	padding: 5px 1px;
+}
+.logout-button:hover{
+	color: #27acd9;
+	background: #fff;
+}
+
+
+.flex-box{
+   background-color: rgb(255, 255, 255);     /* 背景色指定 */
+    padding:  100px;             /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+    flex-wrap: wrap;            /* 折り返し指定 */
+    
+    	
+}
+.button-top:hover{
+	color: #27acd9;
+	background: #fff;
+}
+
+.button-admin{
+
+	font-size:25pt;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 300px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	background: #27acd9;
+	color: #fff;
+	transition: 0.5s;
+	padding: 40px 35px;
+}
+
+.button-admin:hover{
+	color: #27acd9;
+	background: #fff;
+}
+
+/** ここまで **/
+
+/* lending.jsp */
+
+.button{
+	font-size:20pt;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 200px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27ACD9;
+	background: #27ACD9;
+	color: #fff;
+	transition: 0.5s;
+	padding: 10px 5px; /** ボタンの領域（大きさ設定）**/
+}
+.button:hover{ 
+	color: #27ACD9;
+	background: #fff;
+}
+
+
+
+
+.top-box{
+	display: flex;
+align-items: center;
+justify-content: center;
+}
+
