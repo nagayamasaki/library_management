@@ -17,7 +17,7 @@
 		</div>	
  <div class = "second-life">
     <h1>新規登録</h1>
-    <form action="#">
+    <form action="user_sign_upServlet">
     	<div>
             <label for="main">名前</label>
             <input type="text" id="name" name="your-name" class = "big" style= "width: 100%; height: 40px;">      
@@ -42,15 +42,15 @@
 	    <h1>新規登録</h1>
     <form action="#">
         <div>
-            <label for="main">名前</label>
+            <label for="main" class = "big">名前</label>
             <input type="text" id="name" name="your-name" class = "big" style= "width: 100%; height: 40px;">      
         </div><br>
         <div>
-            <label for="mail">メールアドレス</label>
+            <label for="mail" class = "big">メールアドレス</label>
             <input type="email" id="mail" name="your-mail" class = "big" style= "width: 100%; height: 40px;">      
         </div><br>
         <div>
-            <label for="name">パスワード</label>
+            <label for="name" class = "big">パスワード</label>
             <input type="password" id="pw" name="your-pw" class = "big" style= "width: 100%; height: 40px;">     
         </div>
     </form>  

@@ -23,8 +23,8 @@
 	<div class = >パスワード：&emsp;&emsp;&emsp;&emsp;&emsp;********</div><br>
 	</div>
 	<div class ="top-box">
-	<a href="#" class = "button" >戻る</a>
-	<a href="#" class = "button">登録</a>
+	<a href="index.jsp" class = "button" >戻る</a>
+	<a href="user_login_formServlet" class = "button">登録</a>
 	</div><br>
 	
 </body>
