@@ -34,9 +34,13 @@ public class user_login_formServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.getParameter("UTF-8");
-		
-		String mail = request.getParameter("mail");
-		String pw = request.getParameter("pw");
+		String mail = request.getParameter("your-mail");
+		String pw = request.getParameter("your-pw");
+		if(mail.equals("admi@gmail.com") && pw.equals("administrator")) {
+			String view = "WEB-INF/view2/admi_login_form.jsp";
+			RequestDispatcher dispatcher = request.getRequestDispatcher(view);
+			dispatcher.forward(request, response);
+		}
 
 		String salt = AccountDAO.getSalt(mail);
 		
