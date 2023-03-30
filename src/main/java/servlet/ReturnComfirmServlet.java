@@ -10,16 +10,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class RetutrnComfirmServlet
+ * Servlet implementation class ReturnComfirmServlet
  */
-@WebServlet("/RetutrnComfirmServlet")
-public class RetutrnComfirmServlet extends HttpServlet {
+@WebServlet("/ReturnComfirmServlet")
+public class ReturnComfirmServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public RetutrnComfirmServlet() {
+    public ReturnComfirmServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

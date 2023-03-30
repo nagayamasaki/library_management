@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+
+
 /** ログイン画面のCSS **/
 .second-life {
 height: 400px;
@@ -64,6 +67,8 @@ margin-top: 20px;
 }
 
 /** ここまで**/
+
+
 
 /** 管理者画面のCSS **/
 
@@ -146,6 +151,39 @@ justify-content: center;
 }
 
 /** ここまで **/
+
+/* lending.jsp */
+
+
+.button{
+	font-size:20pt;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 200px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27ACD9;
+	background: #27ACD9;
+	color: #fff;
+	transition: 0.5s;
+	padding: 10px 5px; /** ボタンの領域（大きさ設定）**/
+}
+.button:hover{ 
+	color: #27ACD9;
+	background: #fff;
+}
+
+
+
+
+.top-box{
+	display: flex;
+align-items: center;
+justify-content: center;
+}
 
 /* ここから下がハンバーガーメニューに関するCSS */
     
@@ -230,6 +268,3 @@ justify-content: center;
   #drawer_input:checked ~ .nav_content {
     right: 0;/* メニューを画面に入れる */
   }
-
-
-

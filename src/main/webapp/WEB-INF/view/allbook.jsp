@@ -11,6 +11,13 @@
 </head>
 <body>
 
+<script>
+        function alert() {
+            alert("要素がクリックされました");
+        }
+    </script>
+
+
 <header class="header-4">
   <div class="header-inner">
     <div class="box">
@@ -61,53 +68,59 @@
 
 <table class="table table-striped table-boredered table-hover">
              <tr>
-              <th class="example1">出版日</th>
-              <th class="example1">ジャンル</th>
-              <th class="example1">図書名</th>
-              <th class="example1">ISBN</th>
-              <th class="example1">ID</th>
-              <th class="example1"></th>
+              <th class="example2">出版日</th>
+              <th class="example2">ジャンル</th>
+              <th class="example2">図書名</th>
+              <th class="example2">ISBN</th>
+              <th class="example2">ID</th>
+              <th class="example2"></th>
              </tr>
              <tr>
-              <td>データ</td>
-              <td>データ</td>
-              <td>データ</td>
-              <td>データ</td>
-              <td>データ</td>
-              <td><button type="submit" class="button1" value="b1">
-		<font>削除</font>
-    </button></td>
+              <td>xxxx/xx/xx</td>
+              <td>漫画</td>
+              <td>アンパンマン</td>
+              <td>112345364785697</td>
+              <td>1</td>
+              <td style="width:auto;"><a href="DeleteComfirmServlet" onclick="alert()"><button style="float:right; width:100px" >削除</button></a>
+              </td>
              </tr>
              <tr>
-               <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td><button type="submit" class="button1" value="b1">
-		<font>削除</font>
-    </button></td>
-               </tr>
-               <tr>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td><button type="submit" class="button1" value="b1">
-		<font>削除</font>
-    </button></td>
-               </tr>
-               <tr>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td>データ</td>
-                <td><button type="submit" class="button1" value="b1">
-		<font>削除</font>
-    </button></td>
-               </tr>
+              <td>xxxx/xx/xx</td>
+              <td>漫画</td>
+              <td>アンパンマン</td>
+              <td>112345364785697</td>
+              <td>2</td>
+              <td style="width:auto;"><a href="DeleteComfirmServlet" onclick="alert()"><button style="float:right; width:100px" >削除</button></a>
+              </td>
+             </tr>
+             <tr>
+              <td>xxxx/xx/xx</td>
+              <td>漫画</td>
+              <td>アンパンマン</td>
+              <td>112345364785697</td>
+              <td>3</td>
+              <td style="width:auto;"><a href="DeleteComfirmServlet" onclick="alert()"><button style="float:right; width:100px" >削除</button></a>
+              </td>
+             </tr>
+             <tr>
+              <td>xxxx/xx/xx</td>
+              <td>漫画</td>
+              <td>アンパンマン</td>
+              <td>112345364785697</td>
+              <td>4</td>
+              <td style="width:auto;"><a href="DeleteComfirmServlet" onclick="alert()"><button style="float:right; width:100px" >削除</button></a>
+              </td>
+             </tr>
+             <tr>
+              <td>xxxx/xx/xx</td>
+              <td>漫画</td>
+              <td>アンパンマン</td>
+              <td>112345364785697</td>
+              <td>5</td>
+              <td style="width:auto;"><a href="DeleteComfirmServlet" onclick="alert()"><button style="float:right; width:100px" >削除</button></a>
+              </td>
+             </tr>
+             
             </table>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

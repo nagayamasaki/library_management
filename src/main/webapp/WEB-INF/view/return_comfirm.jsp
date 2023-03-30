@@ -30,8 +30,8 @@
 
 
 <div class ="top-box">
-	<a href="#" class = "button" >戻る</a>
-	<a href="#" class = "button">OK</a>
+	<a href="ReturnSelectionServlet" class = "button" >戻る</a>
+	<a href="ReturnSuccessServlet" class = "button">OK</a>
 	</div><br>
 
 

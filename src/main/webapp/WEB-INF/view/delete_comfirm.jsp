@@ -23,15 +23,15 @@
 
 <div style="text-align: left;">
 
-<p><font size="8">図書名&emsp;&emsp;&emsp;アンパンマン</font></p>
+<p><font size="6">図書名&emsp;&emsp;&emsp;アンパンマン</font></p>
 
 <br>
 
-<p><font size="8">ISBN&emsp;&emsp;&emsp;&emsp;1234567890123</font></p>
+<p><font size="6">ISBN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234567890123</font></p>
 
 <br>
 
-<p><font size="8">ID&emsp;&emsp;&emsp;&emsp;&emsp;1</font></p>
+<p><font size="6">ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</font></p>
 
 </div>
 
@@ -42,8 +42,8 @@
 
 
 <div class ="top-box">
-	<a href="#" class = "button" >戻る</a>
-	<a href="#" class = "button">削除</a>
+	<a href="AllbookServlet" class = "button" >戻る</a>
+	<a href="DeleteSuccessServlet" class = "button">削除</a>
 	</div><br>
 
 </body>
