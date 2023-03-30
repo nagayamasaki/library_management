@@ -3,12 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel = "stylesheet" href = "css/index.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-    <h3>受付で本を受け取ってください</h3>
-
-    <a href="user_login_formServlet">topへ戻る</a>
+	<div class = second-life>
+    <h3 style= font-size:20pt;margin-top:120px>受付で本を受け取ってください</h3>
+		<br>
+    <a class = "button" href="user_login_formServlet">topへ戻る</a>
+	</div>
 </body>
 </html>
