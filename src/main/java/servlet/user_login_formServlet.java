@@ -34,6 +34,7 @@ public class user_login_formServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.getParameter("UTF-8");
+		
 		String mail = request.getParameter("your-mail");
 		String pw = request.getParameter("your-pw");
 		if(mail.equals("admi@gmail.com") && pw.equals("administrator")) {
